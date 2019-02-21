@@ -10,8 +10,10 @@
     justify-content: space-between;
     align-items: center;
     border: 0.1rem solid $color-mercury;
-    position: relative;
+    position: fixed;
     background-color: $color-mine-shaft;
+    left: 0;
+    right: 0;
 }
 
 .header__name {
@@ -22,7 +24,10 @@
 
 .rbcf-menu {
     font-size: 2.5rem;
-    padding: 1.5rem;
+    padding: 0.5rem;
+    border: 0.1rem solid $color-white;
+    margin: 0.8rem;
+    border-radius: 0.3rem;
 }
 
 .header__menu-link,
@@ -43,7 +48,7 @@
     // display: none;
     transition: 0.35s;
     position: fixed;
-    top: 5.2rem;
+    top: -100%;
     left: 0;
     right: 0;
     border: 0.1rem solid $color-mercury;
@@ -67,7 +72,7 @@
 }
 #toggle-top-menu:checked + .header__menu-list {
     // display: inherit;
-    top: -100%;
+    top: 5.2rem;
 }
 
 .header__sub-menu {
