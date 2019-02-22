@@ -1,6 +1,7 @@
 .footer {
     font-size: 1.4rem;
     text-align: center;
+    background-color: $color-pizazz;
 }
 
 .footer__link {
@@ -12,5 +13,37 @@
     &:hover {
         text-decoration: underline;
         color: $color-bay-of-many;
+    }
+}
+
+.footer__description {
+    color: $color-white;
+    width: 34rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.social__icon {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    background-image: url("asset/image/social.png");
+}
+
+.social__item {
+    &:nth-child(1) .social__icon {
+        background-position-y: +9px;
+    }
+
+    &:nth-child(2) .social__icon {
+        background-position-y: -140px;
+    }
+
+    &:nth-child(3) .social__icon {
+        background-position-y: -290px;
+    }
+
+    &:nth-child(4) .social__icon {
+        background-position-y: -440px;
     }
 }
