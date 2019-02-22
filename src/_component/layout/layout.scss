@@ -14,7 +14,7 @@ html, body {
 }
 
 .content {
-    // margin-top: 5.2rem;
+    margin-top: 5.2rem;
 }
 
 .header__wrapper {
@@ -24,7 +24,8 @@ html, body {
         color: $color-white;
         font-size: 3.6rem;
         font-weight: normal;
-        padding: 1rem;
+        padding: 2rem;
+        padding-bottom: 1rem;
         text-align: center;
     }
 }
