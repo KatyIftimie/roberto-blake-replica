@@ -1,13 +1,31 @@
 .footer {
     font-size: 1.4rem;
     text-align: center;
-    background-color: $color-pizazz;
 }
 
+.footer__social {
+    background-color: $color-pizazz;
+    margin-bottom: 2rem;
+    color: $color-white;
+
+    h2 {
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    a {
+        color: $color-astral;
+    }
+}
 .footer__link {
     color: $color-astral;
     text-decoration: none;
-    padding: 1.5rem;
+    padding: 0.5rem 1rem 1.5rem 1rem;
     display: inline-block;
 
     &:hover {
