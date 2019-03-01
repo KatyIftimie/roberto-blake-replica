@@ -1,0 +1,25 @@
+.landing__content {
+    text-align: center;
+    padding: 1.5rem;
+    h2 {
+        font-size: 3rem;
+        font-weight: normal;
+    }
+
+    p {
+        font-size: 1.4rem;
+        line-height: 1.4;
+        font-weight: normal;
+    }
+
+    a {
+        color: $color-astral;
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover {
+            text-decoration: underline;
+            color: $color-bay-of-many;
+        }
+    }
+}
