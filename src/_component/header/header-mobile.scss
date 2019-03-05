@@ -100,11 +100,11 @@
 .header__menu-item {
     background-color: $color-mine-shaft;
     &:first-child {
-        &:after {
+        & .header__menu-link:after {
             font-family: 'roberto-blake-custom-font';
             content: "\e902";
             font-size: 2rem;
-            padding: 0 1.5rem;
+            // padding: 0 1.5rem;
         }
     }
 }
