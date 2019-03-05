@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    .image-text__wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image {
+        width: 30%;
+        height: 100%;
+    }
+
+    .text-content {
+        text-align: justify;
+        padding: 0 2rem;
+        max-width: 70%;
+    }
+}

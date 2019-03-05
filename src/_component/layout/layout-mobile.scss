@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+    margin-top: 5.2rem;
+}
+
+.header__wrapper {
+    background-color: $color-pizazz;
+
+    h1 {
+        color: $color-white;
+        font-size: 3.6rem;
+        font-weight: normal;
+        padding: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+hr {
+    border-top: 0.1rem solid $color-gallery;
+    margin: 2.5rem 0;
+}
+@import 'landing-content';
+
+.youtube-video-16-by-9 {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+
+    iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: -1;
+    }
+}
+.image {
+    max-width: 100%;
+}
