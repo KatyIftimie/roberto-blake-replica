@@ -1,16 +1,19 @@
 @media screen and (min-width: 768px){
-    #toggle-top-menu:checked + .header__menu-list {
+    .header__menu-list {
         display: flex;
         top: 0.8rem;
         z-index: 2;
         right: 0.1rem;
         left: inherit;
         border: 0;
+        transition: none;
+        // padding-top: 50rem;
     }
 
     .header__menu-item {
         list-style-type: none;
         position: relative;
+
 
         &:first-child .header__menu-link {
             padding-top: 0;
