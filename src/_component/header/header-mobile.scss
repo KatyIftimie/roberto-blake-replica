@@ -33,7 +33,17 @@
     @extend %header__body;
 }
 
-.header__footer {
+.header__body--speak {
+    background-image: url('asset/image/roberto-speak.jpg');
+    @extend %header__body;
+    font-size: 250px;
+    position: center;
+    // a:url('https://www.youtube.com/watch?v=o7u2OOC2O2A';
+    //      title="Roberto's video";
+    //       target="_blank");
+}
+
+%header__footer {
     background-color: $color-mine-shaft;
     color: $color-white;
     text-align: center;
@@ -44,6 +54,17 @@
         font-weight: normal;
         text-align: center;
         margin-bottom: 1.7rem;
+    }
+}
+.header__footer {
+    @extend %header__footer;
+}
+.header__footer2 {
+    @extend %header__footer;
+    background-color: $color-white;
+    .header__download {
+        font-size: 1.3rem;
+        margin: 0;
     }
 }
 
@@ -58,6 +79,9 @@
     border-radius: 0.7rem;
     text-transform: uppercase;
     font-weight: normal;
+    &:hover {
+        background-color: $color-pizazz;
+    }
 }
 .header__name {
     font-size: 2rem;

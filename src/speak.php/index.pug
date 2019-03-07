@@ -1,0 +1,15 @@
+extends ../_component/layout/layout
+block config
+  -
+    let title =  `Roberto Blake Public Speaker`
+    let description = `Roberto Blake is a Public Speaker covering the topics of Marketing, Creative Services, Social Media and YouTube.`
+
+block a-content
+    include ../_component/mixin/link
+    .header__wrapper
+        h1 Roberto Blake, Keynote Speaker: Marketing & Strategy
+        .header__panel
+            a(href="https://www.youtube.com/watch?v=o7u2OOC2O2A", title="Roberto's video", target="_blank")
+                .header__body--speak
+        .header__footer2
+            a.header__download(href="http://robertoblake.com/pdf/RobertoBlake-Speaker.pdf", target="_blank", title="download something") download roberto's speaker sheet

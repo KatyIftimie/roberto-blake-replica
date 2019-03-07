@@ -1,15 +1,15 @@
 [{
-    "href": "/",
+    "href":"/",
     "text": "",
     "target": ""
   },
   {
-    "href": "about.php",
+    "href": "/about.php",
     "text": "My Story",
     "target": ""
   },
   {
-    "href": "http://robertoblake.com/speaker.php",
+    "href": "/speak.php",
     "text": "Speaking",
     "target": ""
   },
