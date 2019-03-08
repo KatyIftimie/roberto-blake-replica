@@ -32,4 +32,15 @@
             color: $color-bay-of-many;
         }
     }
+
+    %youtube__link {
+        background-image: url('/asset/image/HDL-Keynote-2016.jpg');
+        height: 31.1rem;
+        background-position: center;
+        background-size: cover;
+    }
+    .youtube__link1 {
+        background-image: url('/asset/image/HDL-Keynote-2016.jpg');
+        @extend %youtube__link;
+    }
 }

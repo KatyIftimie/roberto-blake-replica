@@ -36,11 +36,6 @@
 .header__body--speak {
     background-image: url('asset/image/roberto-speak.jpg');
     @extend %header__body;
-    font-size: 250px;
-    position: center;
-    // a:url('https://www.youtube.com/watch?v=o7u2OOC2O2A';
-    //      title="Roberto's video";
-    //       target="_blank");
 }
 
 %header__footer {
@@ -63,8 +58,9 @@
     @extend %header__footer;
     background-color: $color-white;
     .header__download {
-        font-size: 1.3rem;
+        font-size: 3.5vw;
         margin: 0;
+        font-weight: bold;
     }
 }
 
