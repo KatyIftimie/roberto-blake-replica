@@ -32,15 +32,34 @@
             color: $color-bay-of-many;
         }
     }
-
     %youtube__link {
-        background-image: url('/asset/image/HDL-Keynote-2016.jpg');
-        height: 31.1rem;
+        background-image: url('asset/image/HDL-Keynote-2016.jpg');
+        height: 17rem;
+        width: 33rem;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+
     }
-    .youtube__link1 {
-        background-image: url('/asset/image/HDL-Keynote-2016.jpg');
+
+    .youtube__link--1 {
+        background-image: url('asset/image/HDL-Keynote-2016.jpg');
         @extend %youtube__link;
     }
+    .youtube__link--2 {
+        background-image: url('asset/image/RevolveKeynote2015.jpg');
+        @extend %youtube__link;
+    }
+    .youtube__link--3 {
+        background-image: url('asset/image/PepCon2015-Keynote.jpg');
+        @extend %youtube__link;
+    }
+
+    .photo__link {
+        width: 33rem;
+        // display: flex;
+        // flex-direction: column;
+    }
 }
+
