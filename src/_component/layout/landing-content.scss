@@ -1,4 +1,4 @@
-.landing__content {
+%landing__content {
     text-align: center;
     padding: 1.5rem;
     h2 {
@@ -61,5 +61,54 @@
         // display: flex;
         // flex-direction: column;
     }
-}
 
+    .content__panel {
+        width: 100%;
+        text-align: left;
+        height: auto;
+    }
+
+    .text__link {
+        color: $color-astral;
+        text-decoration: none;
+        font-size: 1.4rem;
+        // padding-left: 1rem;
+        // display: inline-block;
+
+        &:hover {
+            text-decoration: underline;
+            color: $color-bay-of-many;
+        }
+    }
+
+    .button__speak {
+        border: 0.1rem solid $color-valencia;
+        background-color: $color-roman;
+        color: $color-white;
+        font-size: 1.2rem;
+        text-decoration: none;
+        // margin:8.5rem;
+        padding: 0.7rem 1rem;
+        border-radius: 0.3rem;
+        font-weight: bold;
+        margin: 1rem;
+        &:hover {
+            background-color: $color-persian-red;
+            border: 0.1rem solid $color-mexican-red;
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+}
+.landing__content {
+    @extend %landing__content;
+}
+.landing__content2 {
+    text-align: left;
+    @extend %landing__content;
+    ul {
+        font-size: 1.4rem;
+        padding-left: 4.3rem;
+        line-height: 1.4;
+    }
+}
