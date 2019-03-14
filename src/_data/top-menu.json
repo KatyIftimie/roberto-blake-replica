@@ -73,12 +73,12 @@
     ]
   },
   {
-    "href": "http://robertoblake.com/press.php",
+    "href": "/press.php",
     "text": "Press",
     "target": ""
   },
   {
-    "href": "http://robertoblake.com/contact.php",
+    "href": "/contact.php",
     "text": "Contact",
     "target": ""
   }

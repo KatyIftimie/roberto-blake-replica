@@ -44,6 +44,11 @@
     @extend %header__body;
 }
 
+.header__body--contact {
+    background-image: url('asset/image/roberto-header-contact.jpg');
+    @extend %header__body;
+}
+
 %header__footer {
     background-color: $color-mine-shaft;
     color: $color-white;
