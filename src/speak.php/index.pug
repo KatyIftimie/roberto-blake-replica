@@ -96,4 +96,64 @@ block a-content
             li Cyber Bullying and Social Media Safety
         a.button__speak(href="http://robertoblake.com/mailto:booking@robertoblake.com?Subject=Bookng%20Speaking%20Session") Book This Speaker
         h2 Speaking Events
+        br
+        ul
+            b Upcoming Speaking Events
+            li PODFEST 2018
+            li Social Media Marketing World 2018
+            li Richmond VA, AMA KEYNOTE March 2018
+            li Social media Day Workshop Jacksonville, FL
+            li Social Media Day San Diego, CA
+            li NameSummit 2018
+            li Vidsummit 2018
+            li Video Marketing World 2018
+        br
+        ul
+            b Previous Speaking Events
+            each listItem in data['link-list']
+                if listItem.link && listItem.link == true
+                    li
+                        p
+                            a(href=listItem.href, target=listItem.target)=listItem.text
+                else
+                    li
+                        p=listItem.text
+        p
+            b Book Roberto For Your Event
         
+        a.button__speak(href="http://robertoblake.com/mailto:booking@robertoblake.com?Subject=Bookng%20Speaking%20Session") Book This Speaker
+        hr
+        h2 Watch Roberto Speaking at HOW DESIGN LIVE
+        p HOW DESIGN LIVE 2016 May | Atlanta Speaking Session: Cutting Through The Noise, Social Media for Creatives
+        .youtube-video-16-by-9
+            iframe(
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/watch?v=KJCoG1SDlbk"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+            )
+        h2 Watch Roberto Social Media Marketing World
+        p Social Media Marketing World 2017 June | San Diego California 
+        p Speaking Session: YouTube Video Production, From Idea to Execution
+        .youtube-video-16-by-9
+            iframe(
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/watch?v=o7u2OOC2O2A"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+            )
+        h2 What People Are Saying About Roberto...
+        p
+            em "There are many influencers and experts in the digital space but Roberto Blake truly does stand out from the rest. Roberto is incredibly dedicated to his craft and is persistent in creating relatable and useful content for his followers. Not only is Roberto great at what he does, he is very generous at giving his time sharing insight with his community." 
+            br
+            b Chelsea Krost Co-founder MPulse
+            br
+            em "He has a real passion for creative entrepreneurship and empowering others, and the community he’s built around his creative philosophy is a reflection of his commitment to his following." 
+            br
+            b Jared Kleinert-Forbes
+        hr
+
