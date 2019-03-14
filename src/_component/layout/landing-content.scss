@@ -92,6 +92,7 @@
         border-radius: 0.3rem;
         font-weight: bold;
         margin: 1rem;
+        display: inline-block;
         &:hover {
             background-color: $color-persian-red;
             border: 0.1rem solid $color-mexican-red;
@@ -105,6 +106,9 @@
 }
 .landing__content2 {
     text-align: left;
+    a {
+        display: inline;
+    }
     @extend %landing__content;
     ul {
         font-size: 1.4rem;
