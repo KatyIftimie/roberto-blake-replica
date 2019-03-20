@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    .footer__social, .footer__ul {
+        display: flex;
+        width: 100%;
+    }
+    .footer__ul {
+        list-style-type: none;
+    }
+    .social__item, .footer__details {
+        width: 25%;
+    }
+
+    .footer__description {
+        width: 100%;
+    }
+    
+}

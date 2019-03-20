@@ -14,4 +14,20 @@
         padding: 0 2rem;
         max-width: 70%;
     }
+    @import 'landing-content';
+
+    %landing__content {
+        padding: 5rem;
+    }
+    .grid__thing {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 40%;
+    }
+    .youtube-video-16-by-9 {
+        grid-column: 1/2;
+    }
+    .text-justify {
+        grid-column: 2/3;
+    }
 }
