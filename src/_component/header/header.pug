@@ -13,6 +13,15 @@ nav.header
                         each dropdown in item.children
                             li
                                 a.header__menu-sub-link(href=dropdown.href)=dropdown.text
+                else if item.type && item.type == 'dropdown2'
+                    input(type="checkbox", id="header-sub-menu2")
+                    label.header__menu-link2(for="header-sub-menu2")
+                        span=item.text
+                        span.rbcf-circle-down
+                    ul.header__sub-menu2
+                        each dropdown2 in item.children
+                            li
+                                a.header__menu-sub-link2(href=dropdown2.href)=dropdown2.text
                 else
                     a.header__menu-link(href=item.href, target=item.target)=item.text
     .header__top

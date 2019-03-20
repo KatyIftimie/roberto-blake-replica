@@ -44,7 +44,7 @@
     "href": "http://robertoblake.com/#",
     "text": "Media",
     "target": "",
-    "type": "dropdown",
+    "type": "dropdown2",
     "children": [{
         "href": "https://www.youtube.com/watch?v=14xWRBRtIh8&list=PLvUg-IRiErnOz5AfCamIX3JGeCTWNhmND",
         "text": "Speaker Reel [YOUTUBE]",
